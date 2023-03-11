@@ -1,5 +1,15 @@
 # React Fitness Application
 
-![React Fitness Application](https://i.ibb.co/Yt9spGc/image.png)
+Install Packages 
+````
+```
+npm install --legacy-peer-deps
+````
+```
+RUN Application 
+````
+```
+npm start
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+````
+```
