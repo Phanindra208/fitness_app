@@ -8,8 +8,8 @@ const Footer = () => (
       <img src={Logo} alt="logo" style={{ width: '200px', height: '41px' }} />
     </Stack>
     <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">
-      <Link href='https://www.linkedin.com/in/phanindrabaddula/' target="blank">Made by Phanindra </Link>
-     </Typography>
+      <Link href="https://www.linkedin.com/in/phanindrabaddula/" target="blank">Made by Phanindra </Link>
+    </Typography>
   </Box>
 );
 
