@@ -6,11 +6,11 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types: [opened, reopened, synchronize, closed]
     branches:
-      - main
+      - master
 
 # Environment variables available to all jobs and steps in this workflow
 env:
