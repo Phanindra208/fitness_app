@@ -45,6 +45,7 @@ jobs:
           output_location: "/build"
           # GitHub Action token
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+          deployment_action: "upload"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
